@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+.white-space {
+	width: 500px;
+	height: 100px;
+ 	padding: 5px;
+  	margin: 25px;
+  	background-color: white;	
+}
+.cal-container {
+	display: flex;
+	justify-content: center;
+	max-height: 
+	
+
+}
+.whole-cal {
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+  	padding: 5px;
+  	width: 400px;
+ 	height: 400px;
+  	margin-top: 10px;
+
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+    color: white;
+    background-color: grey;
+    width: 25%;
+}
+.button:hover{
+	background-color: orange;
+}
+
+.half-button {
+	width: 50%;
+}
+
+.full-bar{
+	width: 100%;
+}
+
+.left-end-button{
+	border-left: none;
+
+}
+
+.right-end-button{
+	border-right: none;
+
+}
+
+.left-bottom-corner-button{
+	border-left: none;
+	border-bottom: none;
+
+}
+
+.right-bottom-corner-button{
+	border-right: none;
+	border-bottom: none;
+
+}
+
+.full-bar{
+	background-color: black;
+
+}
+
+.num{
+	color: black;
+	font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+.display-num{
+	color: white;
+	font-size: 2em;
+	margin: 10px;
+
+}
+
+.num-img {
+	margin: 20px;
+}
+
+.display{
+	justify-content: flex-end;
+}
+
+
+.three-fourths{
+	width: 75%
+}
+
+.operators{
+	background-color: orange;
+}
+.operators:hover{
+	background-color: grey;
+}
+
+.digit {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
